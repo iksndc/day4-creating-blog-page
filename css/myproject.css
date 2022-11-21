@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e3e7eb;
+}
+
+.btn-submit {
+    background-color: rgb(0, 0, 0);
+    font-size: 14pt;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 160px;
+    margin-top: 50px;
+}
+
+.text-input {
+    width: 100%;
+    border-radius: 10px;
+    height: 80px;
+    box-shadow: 0px 5px 15px #00000020;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    background-color: white;
+}
+
+.set-title {
+    text-align: center;
+    margin-top: 60;
+    margin-bottom: 50;
+    font-size: x-large;
+}
+
+.set-form {
+    width: 50%;
+}
+
+.set-label {
+    font-weight: 400;
+    font-size: xx-large;
+    margin-bottom: 0
+}
+
+.message-input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 0px 5px 20px #00000020;
+    font-weight: 700;
+    font-size: xx-large;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.file-input {
+    width: 100%;
+    border-radius: 10px;
+    height: 80px;
+    box-shadow: 0px 5px 15px #00000020;
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+}
+
+hr {
+    border: 1px solid #dbdbdb;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* myproject list */
+.myproject .blog-list {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myprojectmyproject .blog-list .blog-list-item {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    display: flex;
+}
+
+.myproject .blog-list .blog-list-item .blog-image {
+    flex: 1;
+}
+
+.myproject .blog-list .blog-list-item .blog-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.myproject .blog-list .blog-list-item .blog-content {
+    padding-left: 20px;
+    flex: 2;
+}
+
+.myproject .blog-list .btn-group {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.myproject .blog-list .btn-group .btn-edit {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #dbdbdb;
+}
+
+.myproject .blog-list .btn-group .btn-post {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #ec4d37;
+    color: #fff;
+}
+
+.myproject .blog-list h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.myproject .blog-list .detail-blog-content {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.myproject .blog-list .blog-list-item p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
